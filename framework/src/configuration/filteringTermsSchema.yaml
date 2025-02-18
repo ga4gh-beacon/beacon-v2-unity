@@ -16,7 +16,7 @@ $defs:
     type: object
     properties:
       ftType:
-        description: Type of filter term, according to the 'request/filteringTerms.json'
+        description: Type of filter term, according to the 'request/filteringTerms.yaml'
           schema. * 'ontologyTerm' is a term that belongs to a tree of concepts, hence
           suitable to operations like 'query by similarity' or 'include all descendants'.
           Many ontology terms are a value in itself (like 'female'), hence no further
