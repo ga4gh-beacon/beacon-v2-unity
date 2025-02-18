@@ -32,9 +32,8 @@ There is a set of tools in [`/bin`](./bin/) to facilitate the conversion. ATM, a
 
 ## 2.1.1
 
-[Beacon-v2.1.1](https://github.com/ga4gh-beacon/beacon-v2/tree/47af89c8fd199d2674e5ca7fb504815ebc145e63)
-
 *Released, December 13, 2024*
+[Beacon-v2.1.1](https://github.com/ga4gh-beacon/beacon-v2/tree/47af89c8fd199d2674e5ca7fb504815ebc145e63)
 
 * Updated links for make beacon compatible with upgraded VRS version 1.3
 * Changed uri for uri-template in Endpoint.singleEntryUrl
