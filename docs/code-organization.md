@@ -2,6 +2,9 @@
 
 The development of Beacon code and documentation happens in the [`beacon-v2` repository](https://github.com/ga4gh-beacon/beacon-v2).
 
+[![Branch Structure](img/Beacon2API_branch_decision_tree.png)](img/Beacon2API_branch_decision_tree.png)
+
+
 ## Core branches
 
 ### `main`
@@ -44,7 +47,6 @@ Some of the instances of the schema were missing attributes and other aspects th
 
 <b>Current status:</b><span style="color:blue">Waiting for PR to be accepted.</span>
 
-![Branch Structure](img/Beacon2API_branch_decision_tree.png)
 
 
 ## Feature and subfeature branches
