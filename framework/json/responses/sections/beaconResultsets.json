@@ -147,11 +147,29 @@
             "$ref": "../../common/beaconCommonComponents.json#/$defs/$schema"
         },
         "resultSets": {
-            "items": {
-                "$ref": "#/$defs/ResultsetInstance"
-            },
-            "minItems": 0,
-            "type": "array"
+            "oneOf":[
+                {
+                "items": {
+                    "$ref": "#/$defs/ResultsetInstance"
+                },
+                "minItems": 0,
+                "type": "array"
+                },
+                {
+                "items": {
+                    "$ref": "#/$defs/CountInstance"
+                },
+                "minItems": 0,
+                "type": "array"
+                },
+                {
+                "items": {
+                    "$ref": "#/$defs/BooleanInstance"
+                },
+                "minItems": 0,
+                "type": "array"
+                }
+            ] 
         }
     },
     "required": [
