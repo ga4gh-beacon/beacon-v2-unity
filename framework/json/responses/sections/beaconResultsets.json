@@ -27,7 +27,7 @@
                     "type": "integer"
                 },
                 "resultsHandovers": {
-                    "$ref": "../../common/beaconCommonComponents.json#/$defs/ListOfHandovers",
+                    "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/refs/heads/resultSet-response_per-granularity/framework/json/common/beaconCommonComponents.json#/$defs/ListOfHandovers",
                     "description": "List of handovers that apply to this resultset, not to the whole Beacon or to a result in particular."
                 },
                 "returnedGranularity": { "const": "record" },
@@ -74,10 +74,10 @@
                     "type": "integer"
                 },
                 "resultsHandovers": {
-                    "$ref": "../../common/beaconCommonComponents.json#/$defs/ListOfHandovers",
+                    "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/refs/heads/resultSet-response_per-granularity/framework/json/common/beaconCommonComponents.json#/$defs/ListOfHandovers",
                     "description": "List of handovers that apply to this resultset, not to the whole Beacon or to a result in particular."
                 },
-                "returnedGranularity": { "const": "record" },
+                "returnedGranularity": { "const": "count" },
                 "setType": {
                     "default": "dataset",
                     "description": "Entry type of resultSet. It SHOULD MATCH an entry type declared as collection in the Beacon configuration.",
@@ -120,7 +120,7 @@
                     "type": "integer"
                 },
                 "resultsHandovers": {
-                    "$ref": "../../common/beaconCommonComponents.json#/$defs/ListOfHandovers",
+                    "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/refs/heads/resultSet-response_per-granularity/framework/json/common/beaconCommonComponents.json#/$defs/ListOfHandovers",
                     "description": "List of handovers that apply to this resultset, not to the whole Beacon or to a result in particular."
                 },
                 "returnedGranularity": { "const": "boolean" },
@@ -144,7 +144,7 @@
     "description": "Sets of results to be returned as query response.",
     "properties": {
         "$schema": {
-            "$ref": "../../common/beaconCommonComponents.json#/$defs/$schema"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/refs/heads/resultSet-response_per-granularity/framework/json/common/beaconCommonComponents.json#/$defs/$schema"
         },
         "resultSets": {
             "oneOf":[
