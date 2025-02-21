@@ -44,6 +44,9 @@ Some of the instances of the schema were missing attributes and other aspects th
 
 <b>Current status:</b><span style="color:blue">Waiting for PR to be accepted.</span>
 
+![Branch Structure](img/Beacon2API_branch_decision_tree.png)
+
+
 ## Feature and subfeature branches
 
 The feature branches are the branches that bring a lot of changes together to change some specific part of the specifications. They can be composed by different subfeature branches that commit to them or just have one single working branch. The feature branches commit to the `develop` branch as they are the changes that will lead beacon to be upgraded to a new version. The subfeature branches commit to their parent feature branch, as they are a microchange of all the aspects that have to change in a new feature that is being developed. The branches are named as the main purpose of them, so it is made very clear what is the working area of them and the subfeature branches add the name of the feature branch they belong as a prefix followed by an underscore. The list of these feature branches with their subfeature branches is the one shown next:
